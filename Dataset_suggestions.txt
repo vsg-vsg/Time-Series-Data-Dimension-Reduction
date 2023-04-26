@@ -1,0 +1,7 @@
+- Dimebntion reduction algorithms like PCA work for features independence aming them and so the the dependence of a time series features among themselves (i.e., AB depends on AA) is not considered.
+
+- Do PCA and look at how or of this has been done elsewhere.
+
+- Neural networks can be useful for this approach.
+
+- Suggestion for an NN: recurrent NN - RNN feeds the data one feature at a time and hence the new feature has a bias towards the previous features (simulating causality)
